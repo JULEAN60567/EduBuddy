@@ -1,0 +1,17 @@
+{
+  "name": "EduBuddy",
+  "short_name": "EduBuddy",
+  "start_url": "/edubuddy/index.html",
+  "display": "standalone",
+  "background_color": "#1C232D",
+  "theme_color": "#1C232D",
+  "scope": "/edubuddy/",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+    ]
+}
