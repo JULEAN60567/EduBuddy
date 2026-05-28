@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>EduBuddy</title>
     
-    <!-- Mobile Standalone PWA Controls -->
+    <!-- Mobile Web App Controls -->
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
-    <!-- Web App Manifest Definition -->
-    <link rel="manifest" href="data:application/manifest+json,{'name':'EduBuddy','short_name':'EduBuddy','start_url':'.','display':'standalone','background_color':'#1C232D','theme_color':'#1C232D'}">
+    <!-- Links the external manifest data directly -->
+    <link rel="manifest" href="manifest.json">
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <!-- PASTE YOUR VOICEFLOW WEBCHAT LINK BELOW IN THE src PROPERTY -->
+    <!-- PASTE YOUR VOICEFLOW WEBCHAT LINK BELOW -->
     <iframe src="https://creator.voiceflow.com/share/6a0c36fb7c3346bcb2ad2567/environment/main/draft"></iframe>
 
 </body>
